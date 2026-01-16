@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await Aviax.start()
     try:
-        await Aviax.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Aviax.stream_call("https://files.catbox.moe/2kgzc2.jpg")
     except NoActiveGroupCall:
         LOGGER("AviaxMusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
@@ -60,3 +60,4 @@ async def init():
 
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(init())
+
